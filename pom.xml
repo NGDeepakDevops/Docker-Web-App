@@ -25,11 +25,6 @@ Here we are giving war package format
       <plugin>
         <artifactId>maven-war-plugin</artifactId>
         <version>3.2.0</version>
-        <plugin>
-           <artifactId>maven-deploy-plugin</artifactId>
-           <version>3.0.0-M1</version>
-            </plugin>
-        
         <configuration>
           <warSourceDirectory>WebContent</warSourceDirectory>
           <failOnMissingWebXml>false</failOnMissingWebXml>
